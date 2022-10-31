@@ -15,6 +15,7 @@ I learned through this project how to use window prompts and alerts to gather in
 This webpage can be used to generate random passwords from 8 to 128 characters that include at least one of the following: lowercase letters, uppercase letters, numbers, and/or special characters. Please see below for links to Github Repository, the deployed website, and a screenshot of the deployed website:
 
 Deployed Website: https://jeglasper.github.io/Random-Password-Generator/
+
 Git Hub Repository: https://github.com/jeglasper/Random-Password-Generator
 
 ![Deployed Website Image](assets/images/Random-Password-Generator-Deployed-Website.jpg)
