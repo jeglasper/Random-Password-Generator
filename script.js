@@ -47,28 +47,28 @@ function generatePassword () {
     console.log ("Special Characters: " + confirmSpecialChar);
   } 
 
-  var createPassword = []
+  var newArray = []
 
   if (confirmLower) {
-    createPassword = createPassword.concat(lowerCase)
+    newArray = newArray.concat(lowerCase)
   }
 
   if(confirmUpper) {
-    createPassword = createPassword.concat(uppercase)
+    newArray = newArray.concat(uppercase)
   }
 
   if (confirmNumeric) {
-    createPassword = createPassword.concat(numeric)
+    newArray = newArray.concat(numeric)
   }
 
   if (confirmSpecialChar) {
-    createPassword = createPassword.concat(specialChar)
+    newArray = newArray.concat(specialChar)
   }
 
   var randompassword = "";
 
   for (var i=0; i < confirmLength; i++) {
-    randompassword = randompassword + createPassword[Math.floor(Math.random() * createPassword.length)];
+    randompassword = randompassword + newArray[Math.floor(Math.random() * newArray.length)];
   }
   return randompassword;
 }
